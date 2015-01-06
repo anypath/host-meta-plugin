@@ -1,6 +1,5 @@
-const WebFingerBuilder = require(__dirname+'/../lib/webfinger_builder.js');
-const qs = require('qs');
-const url = require('url');
+const qs               = require('qs');
+const WebFingerBuilder = require(__dirname+'/../lib/webfinger_service.js');
 
 function WebfingerController(options) {
   this.webFingerBuilder = new WebFingerBuilder(options);
