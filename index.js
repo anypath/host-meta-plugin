@@ -11,6 +11,7 @@ function HostMetaWebFingerPlugin(options) {
   router.get('/host-meta', hostMetaController.get.bind(hostMetaController));
   router.get('/host-meta.json', hostMetaController.get.bind(hostMetaController));
   router.get('/webfinger', webFingerController.get.bind(webFingerController));
+  router.get('/webfinger.json', webFingerController.get.bind(webFingerController));
   this.router = router;
 }
 

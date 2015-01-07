@@ -1,6 +1,6 @@
 {
   "name": "host-meta-plugin",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "Expose /.well-known/host-meta.json in gatewayd.",
   "main": "index.js",
   "scripts": {
